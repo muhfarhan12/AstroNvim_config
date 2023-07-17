@@ -2,7 +2,7 @@
   "neodev": {
     "library": {
       "enabled": true,
-      "plugins": true
+      "plugins": false
     }
   },
   "neoconf": {
@@ -14,7 +14,14 @@
   },
   "lspconfig": {
     "lua_ls": {
-      "Lua.format.enable": false
+      "Lua.format.enable": false,
+      "Lua.workspace.ignoreDir": [
+        ".vscode",
+        ".config/nvim",
+        ".local/share/nvim"
+      ],
+      "Lua.workspace.checkThirdParty": false
+      // "Lua.workspace.maxPreload": 10
     }
   }
 }
