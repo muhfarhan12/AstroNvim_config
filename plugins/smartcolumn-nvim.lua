@@ -7,6 +7,7 @@ return {
       "mason",
       "help",
       "alpha",
+      "NeogitStatus",
     },
   },
 }
