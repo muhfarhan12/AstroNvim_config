@@ -9,5 +9,4 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
-  { "kevinhwang91/nvim-ufo", enabled = false },
 }

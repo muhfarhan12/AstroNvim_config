@@ -20,6 +20,7 @@ return {
 
   -- bars and lines
   { import = "astrocommunity.bars-and-lines.smartcolumn-nvim" },
+  { import = "astrocommunity.bars-and-lines.vim-illuminate" },
 
   -- colorscheme
   { import = "astrocommunity.colorscheme.catppuccin" },
@@ -46,4 +47,11 @@ return {
   -- { import = "astrocommunity.motion.mini-basics" },
   { import = "astrocommunity.motion.vim-matchup" },
   { import = "astrocommunity.motion.flash-nvim" },
+
+  -- editing support
+  { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
+  { import = "astrocommunity.editing-support.comment-box-nvim" },
+
+  -- completion
+  { import = "astrocommunity.completion.cmp-cmdline" },
 }
