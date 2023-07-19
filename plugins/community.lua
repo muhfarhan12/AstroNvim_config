@@ -27,12 +27,16 @@ return {
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
   { import = "astrocommunity.colorscheme.kanagawa-nvim" },
 
+  -- color
+  -- { import = "astrocommunity.color.vim-highlighter" },
+
   -- indent
   { import = "astrocommunity.indent.indent-blankline-nvim" },
 
   -- code runner
-  { import = "astrocommunity.code-runner.compiler-nvim" },
-  { import = "astrocommunity.code-runner.sniprun" },
+  -- { import = "astrocommunity.code-runner.compiler-nvim" },
+  -- { import = "astrocommunity.code-runner.sniprun" },
+  -- { import = "astrocommunity.code-runner.executor-nvim" },
 
   -- project
   { import = "astrocommunity.project.project-nvim" },
@@ -50,7 +54,7 @@ return {
 
   -- editing support
   { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
-  { import = "astrocommunity.editing-support.comment-box-nvim" },
+  -- { import = "astrocommunity.editing-support.comment-box-nvim" },
 
   -- completion
   { import = "astrocommunity.completion.cmp-cmdline" },
