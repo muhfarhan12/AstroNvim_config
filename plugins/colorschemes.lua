@@ -1,14 +1,14 @@
 return {
   -- catppuccin
-  {
-    "catppuccin",
-    opts = {
-      -- flavour = "latte",
-      integrations = {
-        neogit = true,
-      },
-    },
-  },
+  -- {
+  --   "catppuccin",
+  --   opts = {
+  --     -- flavour = "latte",
+  --     integrations = {
+  --       neogit = true,
+  --     },
+  --   },
+  -- },
 
   -- kanagawa
   {
