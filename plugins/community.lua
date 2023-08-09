@@ -9,7 +9,7 @@ return {
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
 
   -- language pack
-  { import = "astrocommunity.pack.python" },
+  -- { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.html-css" },
